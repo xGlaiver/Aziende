@@ -190,7 +190,10 @@ body {
           align-items: center;
   height: 100%;
   /* Grid Purple */
+  background-image: url("https://imgur.com/ziUQsUt.png"), -webkit-gradient(linear, left bottom, left top, color-stop(30%, rgba(0, 0, 0, 0)), color-stop(110%, #33FFD9));
+  background-image: url("https://imgur.com/ziUQsUt.png"), linear-gradient(to top, rgba(0, 0, 0, 0) 30%, #33FFD9 110%);
   border-radius: 50px 0 0 50px;
+  opacity: 0.6;
 }
 
 .home__words > hgroup {
@@ -200,6 +203,16 @@ body {
 
 .home__words h3 {
   font-weight: 700;
+}
+
+/* Levels */
+.levels {
+  width: 1321px;
+  margin: 48px 16.20% 0 15%;
+}
+
+.levels h1 {
+  font-size: 72px;
 }
 
 /* Footer */
