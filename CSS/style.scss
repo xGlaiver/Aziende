@@ -384,7 +384,7 @@ body {
     
             &_base {
                 width: 581px;
-                height: 521px;
+                height: 481px;
                 border-radius: 40px;
                 background: linear-gradient(to top, rgba(0,0,0,0), rgba($color:$pink, $alpha:0.8));
                 position: relative;
@@ -430,7 +430,7 @@ body {
                     background-color: $teal;
                     color: $pink;
                     position: absolute;
-                    bottom: 10px;
+                    bottom: -30px;
                     left: 50%;
                     transform: translate(-50%);
                     outline: none;
@@ -442,7 +442,7 @@ body {
     
             &_premium {
                 width: 581px;
-                height: 521px;
+                height: 481px;
                 border-radius: 40px;
                 background: linear-gradient(to top, hsla(0,0,100,0), hsla(169,100,60,0.8));
                 position: relative;
@@ -489,7 +489,7 @@ body {
                     background-color: $pink;
                     color: #fff;
                     position: absolute;
-                    bottom: 10px;
+                    bottom: -30px;
                     left: 50%;
                     transform: translate(-50%);
                     outline: none;
