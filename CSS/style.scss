@@ -107,21 +107,58 @@ body {
     display: flex;
     align-items: center;
     position: relative;
+    border: 2px solid $purple;
 
     .linear-color {
         position: absolute;
         width: 100%;
         height: 100%;
-        border-radius: 50px;
+        border-radius: 40px;
         background: linear-gradient(124deg, rgba(255,132,0,0.8) 0, rgba(51,255,217, 0.4) 25%, rgba(51,255,217,0.2) 50%, rgba(51,255,217,0.4) 70%,rgba(255,255,255,1) 100%);
         filter: blur(8px);
         z-index: -1;
         opacity: 0.3;
-        filter: blur(8px);
     }
 }
-.home__images, .home__words {
+.home__images, .home_wordsImg {
     width: 50%;  
+}
+
+.home__images {
+    height: 100%;
+    .home__images__inside {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(12px);
+        border-radius: 50px;
+    }
+    
+    .rectPurpleBig {
+        position: absolute;
+        z-index: -1;
+        top: -40px;
+        right: 100px;
+    }
+}
+
+.home_wordsImg {
+    height: 100%;
+
+    .circlePurpleBig {
+        position: absolute;
+        z-index: -1;
+        bottom: -50px;
+        left: 320px;
+    }
+
+    .circlePinkBig {
+        position: absolute;
+        z-index: -2;
+        bottom: -70px;
+        left: 40px;
+    }
 }
 
 .home__words {
@@ -130,13 +167,17 @@ body {
     align-items: center;
     height: 100%;
     /* Grid Purple */
-    background-image: url("https://i.imgur.com/2VrnzDK.png"), linear-gradient(to top,  rgba(0, 0, 0, 0) 30%, #33FFD9 110%);
+    background-image: url("https://i.imgur.com/pNrVHst.png"), linear-gradient(to top,  rgba(0, 0, 0, 0) 30%, #33FFD9 110%);
     border-radius: 50px 0 0 50px;
+    backdrop-filter: blur(12px);
 }
 
 .home__words>hgroup {
     margin-left: 70px;
     margin-right: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .home__words h3 {

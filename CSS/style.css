@@ -192,23 +192,68 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  border: 2px solid #4003CA;
 }
 
 .home .linear-color {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 40px;
   background: linear-gradient(124deg, rgba(255, 132, 0, 0.8) 0, rgba(51, 255, 217, 0.4) 25%, rgba(51, 255, 217, 0.2) 50%, rgba(51, 255, 217, 0.4) 70%, white 100%);
   -webkit-filter: blur(8px);
           filter: blur(8px);
   z-index: -1;
   opacity: 0.3;
-  filter: blur(8px);
 }
 
-.home__images, .home__words {
+.home__images, .home_wordsImg {
   width: 50%;
+}
+
+.home__images {
+  height: 100%;
+}
+
+.home__images .home__images__inside {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 50px;
+}
+
+.home__images .rectPurpleBig {
+  position: absolute;
+  z-index: -1;
+  top: -40px;
+  right: 100px;
+}
+
+.home_wordsImg {
+  height: 100%;
+}
+
+.home_wordsImg .circlePurpleBig {
+  position: absolute;
+  z-index: -1;
+  bottom: -50px;
+  left: 320px;
+}
+
+.home_wordsImg .circlePinkBig {
+  position: absolute;
+  z-index: -2;
+  bottom: -70px;
+  left: 40px;
 }
 
 .home__words {
@@ -223,14 +268,23 @@ body {
           align-items: center;
   height: 100%;
   /* Grid Purple */
-  background-image: url("https://i.imgur.com/2VrnzDK.png"), -webkit-gradient(linear, left bottom, left top, color-stop(30%, rgba(0, 0, 0, 0)), color-stop(110%, #33FFD9));
-  background-image: url("https://i.imgur.com/2VrnzDK.png"), linear-gradient(to top, rgba(0, 0, 0, 0) 30%, #33FFD9 110%);
+  background-image: url("https://i.imgur.com/pNrVHst.png"), -webkit-gradient(linear, left bottom, left top, color-stop(30%, rgba(0, 0, 0, 0)), color-stop(110%, #33FFD9));
+  background-image: url("https://i.imgur.com/pNrVHst.png"), linear-gradient(to top, rgba(0, 0, 0, 0) 30%, #33FFD9 110%);
   border-radius: 50px 0 0 50px;
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
 }
 
 .home__words > hgroup {
   margin-left: 70px;
   margin-right: 70px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .home__words h3 {
