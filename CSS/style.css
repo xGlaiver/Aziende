@@ -159,6 +159,49 @@ body {
   padding-bottom: 9px;
 }
 
+/* Home */
+.home {
+  width: 1321px;
+  margin: 48px 16.20% 0 15%;
+  height: 437px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(124deg, #ff8400 0, #33ffd9 50%, white 100%);
+}
+
+.home__images, .home__words {
+  width: 50%;
+}
+
+.home__words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  /* Grid Purple */
+  border-radius: 50px 0 0 50px;
+}
+
+.home__words > hgroup {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.home__words h3 {
+  font-weight: 700;
+}
+
 /* Footer */
 footer {
   display: -webkit-box;
