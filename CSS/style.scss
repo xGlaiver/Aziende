@@ -492,6 +492,10 @@ main {
                 width: 100%;
             }
 
+            @include mq804 {
+                margin-top: 0;
+            }
+
 
             .level-box1 {
                 width: 702px;

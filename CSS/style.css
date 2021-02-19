@@ -677,6 +677,12 @@ main {
   }
 }
 
+@media only screen and (max-width: 804px) {
+  .levels .level .level-images {
+    margin-top: 0;
+  }
+}
+
 .levels .level .level-images .level-box1 {
   width: 702px;
   height: 228px;
