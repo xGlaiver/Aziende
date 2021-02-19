@@ -1414,10 +1414,17 @@ main {
 /* Lines Teal*/
 .lineTeal1 {
   position: absolute;
-  bottom: 643px;
+  bottom: 673px;
   border-top: 3px solid #33FFD9;
   width: 18%;
   z-index: -1;
+}
+
+@media only screen and (max-width: 1171px) {
+  .lineTeal1 {
+    bottom: 620px;
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 804px) {
@@ -1428,11 +1435,18 @@ main {
 
 .lineTeal2 {
   position: absolute;
-  bottom: 590px;
+  bottom: 620px;
   border-top: 3px solid #33FFD9;
   width: 18%;
   z-index: -1;
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 1171px) {
+  .lineTeal2 {
+    bottom: 550px;
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 804px) {
@@ -1443,11 +1457,18 @@ main {
 
 .lineTeal3 {
   position: absolute;
-  bottom: 538px;
+  bottom: 568px;
   border-top: 3px solid #33FFD9;
   width: 18%;
   z-index: -1;
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 1171px) {
+  .lineTeal3 {
+    bottom: 500px;
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 804px) {
