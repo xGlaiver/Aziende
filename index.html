@@ -38,6 +38,8 @@
                 <div class="overlay-links">
                   <a class="nav__item_1" href="https://universapp.tech/p/Percorsi/">PERCORSI</a>
                   <a class="nav__item_2" href="https://universapp.tech/p/Pricing/">PRICING</a>
+                  <a class="nav__item_4" href="#">AZIENDE</a>
+                  <a class="nav__item_5" href="#">OFFERTE LAVORO</a>
                   <a class="nav__item_3" href="https://sso.teachable.com/secure/418132/users/sign_up?flow_school_id=418132">SIGN_UP / LOG_IN</a>
                 </div>
               </div>
@@ -206,5 +208,17 @@
         </section>
     </footer>
     
+    <script>
+        document.querySelector(".open-links").addEventListener("click",function(){
+        document.querySelector(".overlay").style.height = "100%";
+        document.querySelector("body").style.overflow = "hidden";
+        });
+  
+        document.querySelector(".close-links").addEventListener("click",function(){
+        document.querySelector(".overlay").style.height = 0;
+        document.querySelector("body").style.overflow = "visible";
+        });
+    </script>
+
 </body>
 </html>
