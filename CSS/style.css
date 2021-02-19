@@ -336,6 +336,7 @@ main {
     min-width: 331px;
     width: 55%;
     min-height: 745px;
+    max-height: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -543,6 +544,13 @@ main {
 @media only screen and (max-width: 1620px) {
   .levels {
     width: 1021px;
+  }
+}
+
+@media only screen and (max-width: 1268px) {
+  .levels {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -912,6 +920,38 @@ main {
   top: 200px;
 }
 
+@media only screen and (max-width: 1620px) {
+  .benefits {
+    width: 1021px;
+  }
+}
+
+@media only screen and (max-width: 1268px) {
+  .benefits {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1171px) {
+  .benefits {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 804px) {
+  .benefits {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-width: 329px;
+    width: 55%;
+    position: relative;
+  }
+}
+
 .benefits .benefits-background {
   min-height: 521px;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 0.4)));
@@ -943,9 +983,21 @@ main {
   margin-top: 12px;
 }
 
+@media only screen and (max-width: 1620px) {
+  .benefits .benefits-background hgroup p {
+    font-size: 14px;
+  }
+}
+
 .benefits .benefits-background hgroup h6 {
   font-weight: 500;
   margin-top: 24px;
+}
+
+@media only screen and (max-width: 1620px) {
+  .benefits .benefits-background hgroup h6 {
+    font-size: 20px;
+  }
 }
 
 .benefits .benefits-background img {
@@ -953,6 +1005,14 @@ main {
   top: 5rem;
   left: 5rem;
   z-index: -100;
+}
+
+@media only screen and (max-width: 1620px) {
+  .benefits .benefits-background img {
+    left: initial;
+    top: 6rem;
+    right: 3rem;
+  }
 }
 
 .benefits .priceWithImg {
@@ -978,6 +1038,12 @@ main {
   position: relative;
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+}
+
+@media only screen and (max-width: 1620px) {
+  .benefits .priceWithImg .price_base {
+    width: 500px;
+  }
 }
 
 .benefits .priceWithImg .price_base > hgroup {
@@ -1039,6 +1105,12 @@ main {
   position: relative;
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+}
+
+@media only screen and (max-width: 1620px) {
+  .benefits .priceWithImg .price_premium {
+    width: 500px;
+  }
 }
 
 .benefits .priceWithImg .price_premium > hgroup {

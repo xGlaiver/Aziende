@@ -238,6 +238,7 @@ main {
         min-width: 331px;
         width: 55%;
         min-height: 745px;
+        max-height: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -392,6 +393,11 @@ main {
 
     @include mq1620 {
         width: 1021px;
+    }
+
+    @include mq1268 {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     @include mq1171 {
@@ -677,6 +683,28 @@ main {
     margin: 65px 16.20% 400px 15%;
     position: relative;
     top: 200px;
+
+    @include mq1620 {
+        width: 1021px;
+    }
+
+    @include mq1268 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @include mq1171 {
+        width: 700px;
+    }
+
+    @include mq804 {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        min-width: 329px;
+        width: 55%;
+        position: relative;
+    }
     
 
     .benefits-background {
@@ -700,11 +728,19 @@ main {
             p {
                 font-weight: 400;
                 margin-top: 12px;
+                
+                @include mq1620 {
+                    font-size: 14px;
+                }
             }
     
             h6 {
                 font-weight: 500;
                 margin-top: 24px;
+
+                @include mq1620 {
+                    font-size: 20px;
+                }
             }
         }
 
@@ -713,6 +749,12 @@ main {
             top: 5rem;
             left: 5rem;
             z-index: -100;
+
+            @include mq1620 {
+                left: initial;
+                top: 6rem;
+                right: 3rem;
+            }
         }
     }
 
@@ -731,6 +773,10 @@ main {
                 background: linear-gradient(to top, rgba(0,0,0,0), rgba($color:$pink, $alpha:1));
                 position: relative;
                 backdrop-filter: blur(12px);
+
+                @include mq1620 {
+                    width: 500px;
+                }
     
                 >hgroup {
                     margin-top: 32px;
@@ -789,6 +835,10 @@ main {
                 background: linear-gradient(to top, hsla(0,0,100,0), hsla(169,100,60,1));
                 position: relative;
                 backdrop-filter: blur(12px);
+
+                @include mq1620 {
+                    width: 500px;
+                }
     
                 >hgroup {
                     margin-top: 32px;
