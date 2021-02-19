@@ -692,7 +692,7 @@ main {
 /* Benefits */
 .benefits {
     width: 1321px;
-    margin: 65px 16.20% 400px 15%;
+    margin: 65px 16.20% 200px 15%;
     position: relative;
     top: 200px;
 
@@ -923,7 +923,7 @@ main {
                 }
 
                 @include mq804 {
-                    margin-top: 152px;
+                    margin-top: 48px;
                     height: 420px;
                     width: 100%;
                 }
@@ -1049,7 +1049,7 @@ main {
             }
 
             @include mq804 {
-                top: 880px;
+                top: 740px;
                 left: -90px;
                 width: 80%;
             }
@@ -1134,11 +1134,9 @@ main {
 }
 
 /* Footer */
-footer {
-    max-width: 1920px;
+.footer {
     display: flex;
     flex-direction: row;
-    margin-top: 246px;
     height: 338px;
     background-color: #4003CA;
     font-weight: 700;
@@ -1147,8 +1145,7 @@ footer {
         flex-direction: column;
         min-width: 329px;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 246px auto 0;
     }
 }
 
