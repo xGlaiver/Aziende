@@ -1082,6 +1082,10 @@ main {
     border-top: 3px solid $teal;
     width: 18%;
     z-index: -1;
+
+    @include mq804 {
+        display: none;
+    }
 }
 
 .lineTeal2 {
@@ -1091,6 +1095,10 @@ main {
     width: 18%;
     z-index: -1;
     opacity: 0.8;
+
+    @include mq804 {
+        display: none;
+    }
 }
 
 .lineTeal3 {
@@ -1100,6 +1108,10 @@ main {
     width: 18%;
     z-index: -1;
     opacity: 0.5;
+
+    @include mq804 {
+        display: none;
+    }
 }
 
 /* Footer */
@@ -1247,26 +1259,3 @@ footer {
     right: 0;
     bottom: 0;
 }
-
-
-
-// @include mq804 {
-
-
-
-
-// .policy {
-//     min-width: 320px;
-// }
-
-// .policy a, .policy p {
-//     font-size: 13px;
-// }
-
-// .footer__textRight {
-//     min-width: 329px;
-//     width: 55%;
-//     display: flex;
-//     justify-content: center;
-// }
-// }
