@@ -254,6 +254,10 @@ main {
 .home__images {
     height: 100%;
 
+    @include mq804 {
+        height: 45%;
+    }
+
     .home__images__inside {
         height: 100%;
         display: flex;
@@ -292,6 +296,10 @@ main {
 
 .home_wordsImg {
     height: 100%;
+
+    @include mq804 {
+        height: 55%;
+    }
 
     .circlePurpleBig {
         position: absolute;

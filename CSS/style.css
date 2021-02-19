@@ -356,6 +356,12 @@ main {
   height: 100%;
 }
 
+@media only screen and (max-width: 804px) {
+  .home__images {
+    height: 45%;
+  }
+}
+
 .home__images .home__images__inside {
   height: 100%;
   display: -webkit-box;
@@ -408,6 +414,12 @@ main {
 
 .home_wordsImg {
   height: 100%;
+}
+
+@media only screen and (max-width: 804px) {
+  .home_wordsImg {
+    height: 55%;
+  }
 }
 
 .home_wordsImg .circlePurpleBig {
