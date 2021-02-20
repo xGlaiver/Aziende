@@ -879,6 +879,12 @@ main {
   margin-top: 73px;
 }
 
+@media only screen and (max-width: 804px) {
+  .levels .level-3 {
+    margin-top: 23px;
+  }
+}
+
 .levels .level-3 .rectOrangeSmall {
   position: absolute;
   z-index: -1;
@@ -927,9 +933,9 @@ main {
 /* Benefits */
 .benefits {
   width: 1321px;
-  margin: 65px 16.20% 200px 15%;
+  margin: 65px 16.20% 0 15%;
   position: relative;
-  top: 200px;
+  top: 50px;
 }
 
 @media only screen and (max-width: 1620px) {
@@ -1489,6 +1495,13 @@ main {
   height: 338px;
   background-color: #4003CA;
   font-weight: 700;
+  margin-top: 200px;
+}
+
+@media only screen and (max-width: 1620px) {
+  .footer {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 804px) {
@@ -1499,7 +1512,7 @@ main {
             flex-direction: column;
     min-width: 329px;
     width: 100%;
-    margin: 246px auto 0;
+    margin: 150px auto 0;
   }
 }
 
