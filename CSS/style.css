@@ -103,6 +103,11 @@ body {
   overflow-x: hidden;
 }
 
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
 /* Navbar */
 .overlay {
   display: none;
