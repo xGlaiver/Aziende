@@ -164,10 +164,9 @@ body {
         z-index: 2;
         top: 0;
         left: 0;
-        overflow-y: hidden;
+        overflow-y: scroll;
         background-color: rgba(0, 0, 0, 0.96);
         transition: .5s;
-        overflow: hidden;
     }
     
     .overlay-links {
