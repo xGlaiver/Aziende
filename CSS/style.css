@@ -91,10 +91,13 @@ a {
 }
 
 /* Body */
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #000;
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;

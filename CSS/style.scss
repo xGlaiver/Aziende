@@ -26,10 +26,13 @@ a {font-size: 15px;font-weight: 400; margin: 0; padding: 0;letter-spacing: 1px;f
 
 
 /* Body */
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #000;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
