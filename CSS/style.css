@@ -91,10 +91,6 @@ a {
 }
 
 /* Body */
-html, body {
-  overflow-x: hidden;
-}
-
 body {
   background-color: #000;
   font-family: 'Roboto', sans-serif;
@@ -104,6 +100,7 @@ body {
   padding: 0;
   color: white;
   letter-spacing: 1px;
+  overflow-x: hidden;
 }
 
 /* Navbar */
