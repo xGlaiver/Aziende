@@ -425,6 +425,7 @@ main {
         font-size: 72px;
         font-weight: 900;
         background: linear-gradient(to top, rgba($color:$teal, $alpha:0.19), rgba($color:$teal, $alpha:1));
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
