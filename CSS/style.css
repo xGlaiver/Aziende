@@ -91,6 +91,10 @@ a {
 }
 
 /* Body */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000;
   font-family: 'Roboto', sans-serif;
@@ -1490,6 +1494,7 @@ main {
   background-color: #4003CA;
   font-weight: 700;
   margin-top: 200px;
+  padding: 0;
 }
 
 @media only screen and (max-width: 1620px) {
