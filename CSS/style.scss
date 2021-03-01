@@ -885,6 +885,9 @@ main {
                     outline: none;
                     border: none;
                     cursor: pointer;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
 
                     @include mq1171 {
                         width: 280px;
@@ -995,6 +998,9 @@ main {
                     outline: none;
                     border: none;
                     cursor: pointer;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
 
                     @include mq1171 {
                         width: 280px;
